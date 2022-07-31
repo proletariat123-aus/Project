@@ -32,9 +32,9 @@ int main() {
 	printf("Hc = ");
 	print_digest(buf_c, 32);
 	if (memcmp(buf_b, buf_c, 32)) {
-		printf("Verification failed.\n");
+		printf("认证失败！\n");
 	}
 	else {
-		printf("Verification succeeded.\n");
+		printf("认证成功！\n");
 	}
 }
